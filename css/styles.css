@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.hero_container {
+    height: 100vh;
+    background: linear-gradient(rgb(44,174,186,0.7), rgb(0,0,0,0.7)),url("../images/main.jpeg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-banner {
+    text-align: center;
+    padding: 0 3rem;
+}
+
+.hero_banner h1 {
+    color:white;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.hero_banner p {
+    color: white;
+    min-width: 30px;    
+}
+
+.about-header-title h3 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.about-header span {
+    color: green;
+    text-transform: uppercase;
+}
+.about-center {
+    display: flex;
+}
+
+.about-info {
+    margin-top: 30px;
+}
+
+.image-size {
+    height: 50vh;
+}
+.about-image,
+.about-info {
+    margin-bottom: 2rem;
+    margin-left: 30px;
+}
+
+.about-info h1 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.about-info p {
+    min-width: 10px;
+}
+button {
+    margin-top: 30px;
+    color: green;
+    padding: 10px;
+    border: 3px solid grey;
+    width: 5vw;
+    height: 5vh;
+    
+    
+}
+
+button {
+    font-size: 13px;
+    text-transform: capitalize;
+}
+button:hover {
+    background-color: greenyellow;
+    color: black;
+}
+
+
