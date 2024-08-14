@@ -164,6 +164,7 @@ Hero
     justify-content: center;
     align-items: center;
     background-color: var(--clr-primary-1);
+    
 }
 
 .hero-banner {
@@ -192,6 +193,15 @@ Hero
     color: var(--clr-white);
     border-color:var(--clr-white);
 }
+
+@media screen and (min-width: 768px) { 
+    .hero {
+        background: linear-gradient(rgb(44,174,186,0.7),rgba(0,0,0,0.7)),url('../images/main.jpeg') center/cover no-repeat;
+    }
+    
+}
+
+
 /*
 =============== 
 About
