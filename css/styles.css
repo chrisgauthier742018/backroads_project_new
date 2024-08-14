@@ -218,17 +218,21 @@ About
 span {
     color: var(--clr-primary-5);
 }
-.about-flex-container {
-    display:flex;
-    justify-content: space-between;
-    flex: wrap;
-    margin-top: 100px;
-}
 
-.about-image, .about-info {
-    flex: 0 0 calc(50% - 2rem);
-    align-self: center;
-}
+@media screen and (min-width: 992px) {
+    .about-flex-container {
+        display:flex;
+        justify-content: space-between;
+        flex: wrap;
+        margin-top: 100px;
+    }
+
+    .about-image, .about-info {
+        flex: 0 0 calc(50% - 2rem);
+        align-self: center;
+    }
+
+}   
 /*
 =============== 
 Services
