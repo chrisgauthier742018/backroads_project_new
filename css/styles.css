@@ -163,26 +163,35 @@ Hero
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url;
+    background-color: var(--clr-primary-1);
 }
 
 .hero-banner {
     text-align:center;
+    
 }
 .hero-banner h1 {
     text-transform: uppercase;
+    color:var(--clr-white);
 
 }
 
 .hero-banner p {
-    max-width: 35rem;
+    color: var(--clr-white);
 }
+
 
 .hero-btn {
     background-color: var(--clr-white);
+    color:var(--clr-primary-5);
     
 }
 
+.bero-btn:hover {
+    background: transparent;
+    color: var(--clr-white);
+    border-color:var(--clr-white);
+}
 /*
 =============== 
 About
