@@ -210,7 +210,25 @@ About
 /* section add to globals */
 /* title add to globals */
 /* section center add to globals */
+.section-title {
+    text-align:center;
+    margin-bottom: 5px;
+}
 
+span {
+    color: var(--clr-primary-5);
+}
+.about-flex-container {
+    display:flex;
+    justify-content: space-between;
+    flex: wrap;
+    margin-top: 100px;
+}
+
+.about-image, .about-info {
+    flex: 0 0 calc(50% - 2rem);
+    align-self: center;
+}
 /*
 =============== 
 Services
