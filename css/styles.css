@@ -397,3 +397,27 @@ Gallery
 Footer
 ===============
 */
+.footer {
+  background: var(--clr-grey-1);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  
+}
+
+
+.footer-container {
+  display:flex;
+  justify-content: center;
+  
+}
+
+.footer-icon {
+  font-size: 0.5rem;
+}
+
+a {
+  font-size: 3rem;
+  margin-right: 5rem;
+  color:var(--clr-white);
+
+}
