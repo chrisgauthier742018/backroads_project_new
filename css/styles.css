@@ -347,6 +347,31 @@ Contact
 ===============
 */
 
+.contact {
+  background: var(--clr-primary-5);
+  color:var(--clr-white);
+}
+
+.left-div p {
+  text-align:left;
+  color:var(--clr-primary-8);
+} 
+.contact-center {
+  display: flex;
+  background: var(--clr-primary-5);
+
+}
+
+.form-control {
+  margin-left: 5rem;
+}
+
+.form-control input, .form-control button {
+  padding: 0.375rem 0.75rem;
+}
+
+
+
 /*
 =============== 
 Gallery
