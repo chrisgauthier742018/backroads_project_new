@@ -329,6 +329,10 @@ Featured Tours
 
 }
 
+.tour-info h4,p {
+  text-align:center;
+  min-height: 30px;
+}
 
 .tour-footer {
   margin-left: 5rem;
