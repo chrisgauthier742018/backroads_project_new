@@ -350,6 +350,7 @@ Contact
 .contact {
   background: var(--clr-primary-5);
   color:var(--clr-white);
+  margin-bottom: 0px;
 }
 
 .left-div p {
@@ -377,6 +378,19 @@ Contact
 Gallery
 ===============
 */
+@media screen and (min-width: 768px) {
+  .gallery-center {
+    display:flex;
+    flex:wrap;
+    margin-bottom:0px;
+    margin-top: 0px;
+}
+
+
+.gallery-image-container {
+  flex:0 0 25%;
+}
+
 
 /*
 =============== 
