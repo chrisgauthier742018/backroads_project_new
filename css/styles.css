@@ -297,6 +297,7 @@ Featured Tours
   background: var(--clr-grey-10);
   box-shadow: var(--light-shadow);
   margin-bottom: 2rem;
+  margin-left: 10px;
 }
 
 .tour-card:hover {
