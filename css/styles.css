@@ -405,10 +405,19 @@ Footer
 }
 
 
+
 .footer-container {
   display:flex;
   justify-content: center;
   
+}
+
+.footer-link {
+  color:var(--clr-white);
+  text-transform: capitalize;
+  font-size: 1rem;
+  margin-right: 1rem;
+  letter-spacing: var(--spacing);
 }
 
 .footer-icon {
