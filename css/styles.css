@@ -384,6 +384,7 @@ Gallery
     flex:wrap;
     margin-bottom:0px;
     margin-top: 0px;
+  }
 }
 
 
@@ -399,34 +400,16 @@ Footer
 */
 .footer {
   background: var(--clr-grey-1);
-  padding-left: 2rem;
-  padding-right: 2rem;
-  
 }
 
-
-
-.footer-container {
+.footer-links, .footer-icons {
   display:flex;
+  font-size: 2rem;
   justify-content: center;
   
 }
 
-.footer-link {
+.footer-link,.footer-icon {
   color:var(--clr-white);
-  text-transform: capitalize;
-  font-size: 1rem;
-  margin-right: 1rem;
-  letter-spacing: var(--spacing);
-}
-
-.footer-icon {
-  font-size: 0.5rem;
-}
-
-a {
-  font-size: 3rem;
-  margin-right: 5rem;
-  color:var(--clr-white);
-
+  margin-right: 3rem;
 }
